@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    /* flex-direction: column;   by default flex direction is column */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row;
+    flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+
+    /* flex-flow: column wrap;   shorthand property */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: baseline; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+    
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    /* flex-grow: 1; */
+}
+/* .box:nth-child(3){
+    font-size: 30px;
+} */
+
+.box2{
+    /* order: 5; */
+    flex-grow: 2;
+}
+.box5{
+    /* order: -2; */
+    /* flex-shrink: 3; */
+    flex-basis: 300px;    /* initially width set kr skte hain  */
+}
+
+.box3{
+    align-self: flex-end;
+}
